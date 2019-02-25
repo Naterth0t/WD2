@@ -1,0 +1,190 @@
+img {
+  max-width:100%;
+}
+body {
+  font-family: Verdana;
+  background: linear-gradient(to right, lightgreen, teal);
+  margin:0;
+}
+    
+header {
+  grid-area:header;
+  background:rgba(0,0,0,.2);
+  padding:5px;
+  text-align:center;
+ }
+
+header h1 {
+  font-size:5vw;
+  color:mediumspringgreen;
+  font-family:Impact;
+  text-shadow: 2px 2px 5px navy;
+  margin: 0;
+}
+
+header h3 {
+  font-size:2vw;
+  color:navy;
+  margin:0;
+}
+
+nav {
+  grid-area:nav;
+  background:rgba(0,0,0,.2);
+}
+    
+nav ul {
+  padding:10px;
+  margin:0;
+}
+
+nav li {
+  padding:10px 10px;
+  list-style-type:none;
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+nav a {
+  text-decoration:none;
+  color:navy;
+}
+
+a:hover {
+  color:white;
+}
+
+main {
+  grid-area:main;
+  background:rgba(0,0,0,.2);
+  padding:5px;
+}
+
+main h2 {
+  text-align:center;
+  color:navy;
+  margin:1%;
+}
+
+main p {
+  color:white;
+  padding:1% 2%;
+  font-size:1em;
+}
+aside {
+  grid-area:aside;
+  background:rgba(0,0,0,.2);
+}
+aside a {
+  text-decoration:none;
+  color:white;
+}
+aside li{
+	color:navy;
+	padding:5px;
+}
+aside h2{
+	color:navy;
+}
+aside a:hover {
+  color:navy;
+}
+
+footer {
+  grid-area:footer;
+  background:rgba(0,0,0,.2);
+  padding:5px;
+  text-align:center;
+}
+
+footer p {
+  font-size:1em;
+  color:white;
+  margin:0;
+}
+
+/*---------------------------Mobile Layout Styles----------------------------*/
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "footer";   
+    }
+
+/*This stuff is for the hamburger menu*/
+.toggleNav {
+    display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+    padding:10px;
+    }
+
+#flex-nav ul {
+    display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
+    text-align:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ 
+#flex-nav ul.open { /*.open is the class that gets toggled when clicked (with help from the jQuery code)*/
+    display:grid;
+    }
+    
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+    }
+
+
+/*-----------------------Tablet Media Query------------------------*/
+@media only screen and (min-width: 480px)  {
+.container1 { /*for index.html*/
+  grid-template-columns:auto 1fr;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "aside aside"
+    "footer footer";
+    }
+
+
+/* Below will change from hamburger menu to side navigation*/
+  
+.toggleNav {
+    display: none; /*Makes the hamburger icon with the word "Menu" to disappear at this screen size*/
+  }
+  
+#flex-nav ul {
+    display:grid;
+    text-align:left;
+  }
+
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+  } 
+
+	}
+
+/*-----------------------Desktop Media Query------------------------*/
+@media only screen and (min-width: 960px)  {
+
+.container1 { /*for index.html*/
+  grid-template-columns:auto 1fr 25%;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+    }
+	
+
+	}
+
