@@ -188,9 +188,10 @@ footer p {
   grid-template-columns:auto 1fr;
   grid-template-areas:
     "header header"
-    "nav main top"
-    "aside aside middle"
-    "footer footer bottom";
+    "nav main "
+    "nav middle"
+    "nav bottom"
+    "footer footer";
     }
 
 /* Below will change from hamburger menu to side navigation*/
