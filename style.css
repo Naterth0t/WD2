@@ -189,8 +189,9 @@ footer p {
   grid-template-areas:
     "header header"
     "nav main "
-    "nav middle"
-    "nav bottom"
+    "top top"
+    "middle middle"
+    "bottom bottom
     "footer footer";
     }
 
@@ -226,8 +227,10 @@ footer p {
   grid-template-columns:auto 1fr 25%;
   grid-template-areas:
     "header header header"
-    "nav main"
-    "footer footer footer;
+    "nav main top"
+    "nav main middle"
+    "nav main bottom"
+    "footer footer footer";
     }	
 
 	
