@@ -224,7 +224,7 @@ footer p {
     "footer footer footer";
     }
 .container2 { /*for blog.html*/
-  grid-template-columns:auto 1fr 25%;
+  grid-template-columns:auto 1fr 25% 1.5fr;
   grid-template-areas:
     "header header header"
     "nav main top"
