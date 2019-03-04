@@ -188,10 +188,10 @@ footer p {
   grid-template-columns:auto 1fr;
   grid-template-areas:
     "header header"
-    "nav main "
+    "nav main"
     "top top"
     "middle middle"
-    "bottom bottom
+    "bottom bottom"
     "footer footer";
     }
 
@@ -224,7 +224,7 @@ footer p {
     "footer footer footer";
     }
 .container2 { /*for blog.html*/
-  grid-template-columns:auto 1fr 25% 1.5fr;
+  grid-template-columns:auto 1fr 1.5fr;
   grid-template-areas:
     "header header header"
     "nav main top"
@@ -232,6 +232,6 @@ footer p {
     "nav main bottom"
     "footer footer footer";
     }	
-
+}
 	
 
