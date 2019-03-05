@@ -101,19 +101,19 @@ article p {
 grid-area:top;
 }
 .top h2{
-	text-color:navy;
+color:navy;
 }
 .middle {
 grid-area:middle;
 }
 .middle h2{
-	text-color:navy;
+color:navy;
 }
 .bottom {
 grid-area:bottom;
 }
 .bottom h2{
-	text-color:navy;
+color:navy;
 }
 footer {
   grid-area:footer;
