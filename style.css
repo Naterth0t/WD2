@@ -102,18 +102,21 @@ grid-area:top;
 }
 .top h2{
 color:navy;
+text-align:center;
 }
 .middle {
 grid-area:middle;
 }
 .middle h2{
 color:navy;
+text-align:center;
 }
 .bottom {
 grid-area:bottom;
 }
 .bottom h2{
 color:navy;
+text-align:center;
 }
 footer {
   grid-area:footer;
