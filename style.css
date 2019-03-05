@@ -98,13 +98,22 @@ article p {
   font-size:1em;
 }
 .top {
-grid-area:top;	
+grid-area:top;
+}
+.top h2{
+	text-color:navy;
 }
 .middle {
 grid-area:middle;
 }
+.middle h2{
+	text-color:navy;
+}
 .bottom {
 grid-area:bottom;
+}
+.bottom h2{
+	text-color:navy;
 }
 footer {
   grid-area:footer;
