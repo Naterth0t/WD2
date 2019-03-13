@@ -118,6 +118,18 @@ grid-area:bottom;
 color:navy;
 text-align:center;
 }
+figure {
+	margin:0;
+	text-align:center;
+}
+figcaption {
+	padding:5px;
+	color:navy;
+	font-weight:bold;
+}
+figure img{
+	padding-top:10px;
+}
 footer {
   grid-area:footer;
   background:rgba(0,0,0,.2);
