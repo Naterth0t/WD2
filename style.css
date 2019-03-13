@@ -130,6 +130,13 @@ figcaption {
 figure img{
 	padding-top:10px;
 }
+.fig1 {
+	grid-area:fig1;
+}
+.fig2 {
+	grid-area:fig2;
+	background:rgba(0,0,0,.2);
+}
 footer {
   grid-area:footer;
   background:rgba(0,0,0,.2);
