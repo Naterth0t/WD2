@@ -257,6 +257,14 @@ footer p {
 	grid-template-areas:
 		"section"
 		"fig1";
+	}
+		.container4 { /*for destination.html*/
+  grid-template-columns:auto 1fr 25%;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
 }
 /* Below will change from hamburger menu to side navigation*/
   
@@ -306,6 +314,14 @@ footer p {
 .nestedgrid {
 	grid-template-areas:
 		"section fig1";
+	}
+	.container4 { /*for destination.html*/
+  grid-template-columns:auto 1fr 25%;
+  grid-template-areas:
+    "header header"
+    "nav main"
+    "footer footer";
+    }
 }
 	
 
