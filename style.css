@@ -150,6 +150,18 @@ footer p {
   color:white;
   margin:0;
 }
+audio {
+max-width:100%;
+}
+video { 
+ max-wdith: 100%;
+ height:auto;
+}
+.video,.audio{
+margin:0;
+display:grid; /*This needs to be set or it won't center*/
+justify-content:space-around;
+}
 
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
