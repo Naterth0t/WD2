@@ -172,6 +172,11 @@ form {
 input {
  margin: 1px 0 10px 0;
 }
+button {
+ padding:5px;
+ color:navy;
+ text-color:lightseagreen;
+}
 
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
