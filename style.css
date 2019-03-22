@@ -162,6 +162,16 @@ margin:0;
 display:grid; /*This needs to be set or it won't center*/
 justify-content:space-around;
 }
+form {
+ background-color:darkseagreen;
+ width:90%;
+ margin:auto;
+ color:white;
+ padding:10px;
+}
+input {
+ margin: 1px 0 10px 0;
+}
 
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
