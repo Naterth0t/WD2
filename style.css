@@ -174,8 +174,8 @@ input {
 }
 .button {
  padding:5px;
- color:navy;
- text-color:lightseagreen;
+ background-color:navy;
+ color:lightseagreen;
 }
 
 /*---------------------------Mobile Layout Styles----------------------------*/
