@@ -194,6 +194,13 @@ input {
  text-align:center;
  font-size:.75em;
 }
+.div1 {
+	grid-area:div1;
+}
+.div2 {
+	grid-area:div2;
+}
+
 
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
@@ -253,6 +260,12 @@ input {
     "main"
     "footer";   
     }
+.nestedgrid2 {
+	display:grid;
+	grid-template-areas:
+		"div1"
+		"div2";
+}
 /*This stuff is for the hamburger menu*/
 .toggleNav {
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
@@ -321,6 +334,7 @@ input {
     "footer footer";
  
 }
+	
 /* Below will change from hamburger menu to side navigation*/
   
 .toggleNav {
@@ -377,6 +391,12 @@ input {
     "nav main"
     "footer footer";
     }
+	.nestedgrid2 {
+	display:grid;
+	grid-template-areas:
+		"div1 div2"
+	}
+		
 }
 	
 
